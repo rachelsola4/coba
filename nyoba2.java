@@ -45,7 +45,7 @@ public class nyoba2 {
         else {
             hargatotal(100000);
         }
-        ucapin("rachel");
+        ucapin("rachel suka makan nasi padang");
     }
 }
 
