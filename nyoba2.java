@@ -47,6 +47,6 @@ public class nyoba2 {
         }
         ucapin("rachel umurnya 70");
     }
-}
+} test
 
 
