@@ -45,8 +45,8 @@ public class nyoba2 {
         else {
             hargatotal(100000);
         }
-        ucapin("rachel umurnya 70");
+        ucapin("rachel");
     }
-} test
+}
 
 
