@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class nyoba2 {
+public class nyoba2 extends metod
+{
     public static String tulisan = "Selamat datang di Toko Buku Cemerlang!";
 
     static void greeting(String nama){
@@ -24,6 +25,15 @@ public class nyoba2 {
     }
 
     public static void main(String[] args){
+         Boolean continueProgram = true; 
+        String choice="lanjut"; 
+        
+        
+        while(continueProgram) 
+        {
+            switch(choice)
+            {
+                case "lanjut":
         greeting("rachel");
         cetakTulisan();
         metod objek = new metod();
@@ -46,6 +56,17 @@ public class nyoba2 {
             hargatotal(100000);
         }
         ucapin("rachel");
+         System.out.println("\nIngin Melanjutkan ? ");
+                Scanner scan1 = new Scanner(System.in);
+                String r = scan1.next();
+                choice=r;
+                
+                break;
+                case "tidak":
+                System.out.println("Terima Kasih");
+                continueProgram=false;
+            }
+        }   
     }
 }
 
